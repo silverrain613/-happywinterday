@@ -1,0 +1,467 @@
+#container.logo-maker {}
+
+#container.logo-maker>.content>.con {
+    background-image: none;
+    background-color: #000;
+}
+
+.newjeans-getup>.content>.con>.body-logo-maker {
+    height: calc(100% - 112px) !important;
+    margin-top: -42px !important;
+    overflow-y: hidden !important;
+}
+
+.newjeans-getup>.content>.con>.body-logo-maker>header {
+    height: 82px !important;
+}
+
+.newjeans-getup>.content>.con>.body-logo-maker>header>.btn-back {
+    left: 15px !important;
+    top: auto !important;
+    bottom: 12px !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+}
+
+.newjeans-getup>.content>.con>.body-logo-maker>header>.title {
+    top: auto !important;
+    bottom: 13px !important;
+    transform: translateX(-50%) !important;
+    -webkit-transform: translateX(-50%) !important;
+    -moz-transform: translateX(-50%) !important;
+    -ms-transform: translateX(-50%) !important;
+    -o-transform: translateX(-50%) !important;
+    cursor: pointer;
+}
+
+.newjeans-getup>.content>.con>.body-logo-maker>main {
+    background-color: #ECECEC;
+    height: calc(100% - 82px);
+}
+
+.newjeans-getup>.content>.con>.body-logo-maker>main>.canvas-wrap {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.logo-maker-step>.popup {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 234px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.logo-maker-step>.popup>.con>.title {
+    font-family: "apple";
+    text-align: center;
+    margin: 0 20px 20px 20px ;
+}
+.logo-maker-step>.popup>.con>.title>.to{
+    font-family: "apple";
+    font-weight: bold;
+}
+
+.logo-maker-step>.popup>.con>.title>p {
+    font-size: 15px;
+    /* font-weight: bold; */
+    line-height: 19px;
+    font-family: "AppleSDGothicNeo";
+}
+
+.logo-maker-step>.popup>.con>.title>p.ko {
+    font-weight: 800;
+}
+
+.logo-maker-step>.popup>.con>.title>p.en {
+    font-weight: 600;
+}
+
+/* Alert */
+.alert {
+    /* display: none; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.alert>.popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 270px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 12px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.alert>.popup>.con {
+    display: block;
+    position: relative;
+    padding: 16px 0 0;
+}
+
+.alert>.popup>.con>.message {
+    margin-bottom: 18px;
+}
+
+.alert>.popup>.con>.message>.text {
+    font-size: 11px;
+    line-height: 1.2;
+}
+
+.alert>.popup>.con>.message>.text>strong {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.alert>.popup>.con>.message>.text>p {
+    display: block;
+    position: relative;
+}
+
+.alert>.popup>.con>.img-gif {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.alert>.popup>.con>.img-gif>img {
+    width: 100%;
+}
+
+.alert>.popup>.con>.control {
+    display: block;
+    position: relative;
+    border-top: 1px solid #D5D5D7;
+}
+
+.alert>.popup>.con>.control>.btn-create {
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: #007AFF;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/* Step 1 */
+.logo-maker-step-1 {
+    /* display: none; */
+}
+
+.logo-maker-step-1>.popup>.con {
+    padding: 16px 0 0;
+}
+
+.logo-maker-step-1>.popup>.con>.input-box {
+    display: block;
+    position: relative;
+    width: 208px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: 1px solid #CACACC;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 3px 7px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+}
+
+.logo-maker-step-1>.popup>.con>.input-box>input {
+    display: block;
+    position: relative;
+    border: 0;
+    outline: 0;
+    font-size: 13px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.logo-maker-step-1>.popup>.con>.input-box>input:focus {
+    border: 0;
+    outline: 0;
+}
+
+.logo-maker-step-1>.popup>.con>.control {
+    display: block;
+    position: relative;
+    border-top: 1px solid #D5D5D7;
+}
+
+.logo-maker-step-1>.popup>.con>.control>.btn-create {
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: #007AFF;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Step 2 */
+.logo-maker-step-2 {
+    /* display: none; */
+}
+
+.logo-maker-step-2>.popup>.con {
+    padding: 16px 0;
+}
+
+.logo-maker-step-2>.popup>.con>.emozi {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 45px;
+    padding: 0 33px;
+    box-sizing: border-box;
+}
+
+.logo-maker-step-2>.popup>.con>.emozi>.emz {
+    display: none;
+}
+
+.logo-maker-step-2>.popup>.con>.emozi>.emz.active {
+    display: flex;
+}
+
+.logo-maker-step-2>.popup>.con>.emozi>.emz>li {
+    flex: 1 1 auto;
+    width: 25%;
+    padding: 0 2px;
+    box-sizing: border-box;
+}
+
+.logo-maker-step-2>.popup>.con>.emozi>.emz>li>img {
+    visibility: hidden;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.logo-maker-step-2>.popup>.con>.emozi>.emz>li.active>img {
+    visibility: visible;
+}
+
+.logo-maker-step-2>.popup>.con>.desc {
+    font-size: 13px;
+    color: #C5C5C7;
+    line-height: 17px;
+    font-family: "AppleSDGothicNeo";
+}
+
+/* Step 4 */
+.logo-maker-step-3 {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.logo-maker-step-3>.logo-list {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.logo-maker-step-3>.logo-list>ul {
+    display: block;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.logo-maker-step-3>.logo-list>ul>li {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.logo-maker-step-3>.logo-list>ul>li>.item {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 18px;
+}
+
+.logo-maker-step-3>.logo-list>ul>li>.item>img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.logo-maker-step-3>.logo-list>ul>li>.item>.btn-download {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    background-color: #007AFF;
+    padding: 13px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+@media screen and (max-width :767px) {
+    .newjeans-getup>.content>.con>.body-logo-maker {
+        margin-top: 0 !important;
+        width: 100%;
+        height: 100% !important;
+    }
+
+    .newjeans-getup>.content>.con>.body-logo-maker>header {
+        height: 10.6666vw !important;
+    }
+
+    .body-logo-maker .content {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .newjeans-getup>.content>.con>.body-logo-maker>main {
+        height: calc(100% - 10.666vw);
+    }
+
+    .logo-maker-step>.popup {
+        width: 70.4vw;
+        border-radius: 3.2vw;
+        -webkit-border-radius: 3.2vw;
+        -moz-border-radius: 3.2vw;
+        -ms-border-radius: 3.2vw;
+        -o-border-radius: 3.2vw;
+    }
+
+    .logo-maker-step>.popup>.con>.title {
+        margin-bottom: 5vw;
+    }
+
+    .logo-maker-step>.popup>.con>.title>p {
+        font-size: 4vw;
+        line-height: 5.0666666667vw;
+    }
+
+    /* Logo step 1 */
+    .logo-maker-step-1>.popup>.con {
+        padding: 4.2666666667vw 0 0;
+    }
+
+    .logo-maker-step-1>.popup>.con>.input-box {
+        width: 55vw;
+        border-radius: 1.6vw;
+        -webkit-border-radius: 1.6vw;
+        -moz-border-radius: 1.6vw;
+        -ms-border-radius: 1.6vw;
+        -o-border-radius: 1.6vw;
+        padding: 0.8vw 1.8666666667vw;
+        margin-bottom: 3.7333333333vw;
+        overflow: hidden;
+    }
+
+    .logo-maker-step-1>.popup>.con>.input-box>input {
+        font-size: 3.4666666667vw;
+        /* background-color: transparent; */
+    }
+
+    .logo-maker-step-1>.popup>.con>.control>.btn-create {
+        font-size: 3.7333333333vw;
+        padding: 2.6666666667vw 0;
+    }
+
+
+    /* Logo step 2 */
+    .logo-maker-step-2>.popup>.con {
+        padding: 4.2666666667vw 0;
+    }
+
+    .logo-maker-step-2>.popup>.con>.emozi {
+        font-size: 9.6vw;
+        margin-bottom: 4vw;
+        line-height: 12vw;
+    }
+
+    .logo-maker-step-2>.popup>.con>.desc {
+        font-size: 3.2vw;
+        line-height: 4.5333333333vw;
+    }
+
+    /* Logo Step 3 */
+    .logo-maker-step-3>.logo-list>ul {
+        margin-top: 2.6666666667vw;
+        margin-bottom: 2.6666666667vw;
+    }
+
+    .logo-maker-step-3>.logo-list>ul>li {
+        padding: 1.3333333333vw 0;
+    }
+
+    .logo-maker-step-3>.logo-list>ul>li>.item {
+        border-radius: 6.1333333333vw;
+        -webkit-border-radius: 6.1333333333vw;
+        -moz-border-radius: 6.1333333333vw;
+        -ms-border-radius: 6.1333333333vw;
+        -o-border-radius: 6.1333333333vw;
+        overflow: hidden;
+    }
+
+    .logo-maker-step-3>.logo-list>ul>li>.item>.img {
+        width: 88.2666666667vw;
+        height: 34.1333333333vw;
+    }
+}
+
